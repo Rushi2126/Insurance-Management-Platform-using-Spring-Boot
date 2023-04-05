@@ -1,9 +1,9 @@
-#Insurance Management Platform
+# Insurance Management Platform
 
 This is an Insurance Management Platform built using Spring Boot and Java. The platform allows users to manage insurance policies, clients, and claims.
 
 
-#Project Structure
+# Project Structure
 
 The project follows a standard Spring Boot project structure with the following packages:
 
@@ -17,7 +17,7 @@ com.rushi.insurance.service.impl: contains implementation of services.
 com.rushi.insurance.validators: 
 
 
-#Features
+# Features
 The platform provides the following features:
 
 1. Client:
@@ -44,7 +44,7 @@ PUT /api/claims/{id}: Update a claim's information.
 DELETE /api/claims/{id}: Delete a claim.
 
 
-#How to Run Locally
+# How to Run Locally
 
 1.Clone the project from GitHub.
 2.Open the project in your preferred IDE.
@@ -53,7 +53,7 @@ DELETE /api/claims/{id}: Delete a claim.
 5.To access the H2 database console, go to http://localhost:8080/h2-console/ and enter the following JDBC URL: jdbc:h2:mem:testdb. The default username is sa and there is no password.
 
 
-#Dependencies
+# Dependencies
 
 The following dependencies are used in the project:
 
